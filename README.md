@@ -1,4 +1,4 @@
-# SwedishLeafClassificationWithGUI
+# Swedish Leaf Classification With GUI
 
 ## Dataset
 You can download the dataset from the following link: [Swedish Leaf Dataset](https://www.cvl.isy.liu.se/en/research/datasets/swedish-leaf/).
@@ -22,7 +22,7 @@ Now you are ready to use the dataset for your project.
 ## Usage
 - `gui.py`: This script can be directly executed and it will utilize the pre-trained models located in the same directory.
 
-- `svm.py` and `lda.py`: These scripts are used for parameter tuning and training using the dataset.
+- `svm.py` and `fisher.py`: These scripts are used for parameter tuning and training using the dataset.
 
 
 - `model.py`: This script is used to train a voting model combining the results from SVM and LDA.
